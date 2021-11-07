@@ -162,3 +162,24 @@ a:visited{
     }
 
 }
+
+@media print {
+    .info .icon{
+        display: none;
+    }
+
+    .info .avatar{
+        box-shadow: none;
+        
+    }
+
+    .info{
+        margin-bottom: 15px;
+        display: flex;
+        text-align: center;
+    }
+
+    .card{
+        margin: 25px 0;
+    }
+}
